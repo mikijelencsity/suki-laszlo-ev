@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Suki László E.V. · Gipszkartonozás, hőszigetelés, burkolás, felújítás</title>
-<meta name="description" content="Gipszkartonozás és álmennyezet, homlokzati hőszigetelés, burkolás és teljes körű felújítás Veszprém megyében és 50 km-es körzetben. Ingyenes helyszíni felmérés, fix árajánlat, határidőre.">
+<meta name="description" content="Kőműves munkák, homlokzati hőszigetelés, burkolás és teljes körű felújítás Veszprém megyében és 50 km-es körzetben. Ingyenes helyszíni felmérés, fix árajánlat, határidőre.">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%2320242A'/%3E%3Cpath d='M5 11 12 5l7 6' fill='none' stroke='%23C1592D' stroke-width='1.9' stroke-linejoin='round' stroke-linecap='round'/%3E%3Cpath d='M6.6 10.4V18h10.8v-7.6' fill='none' stroke='%23C1592D' stroke-width='1.9' stroke-linejoin='round'/%3E%3C/svg%3E">
 <meta name="theme-color" content="#20242A">
 <link rel="canonical" href="https://sukilaszlo.hu/">
@@ -12,7 +12,7 @@
 <meta property="og:locale" content="hu_HU">
 <meta property="og:site_name" content="Suki László E.V.">
 <meta property="og:title" content="Suki László E.V. · Kivitelezés, hőszigetelés, felújítás">
-<meta property="og:description" content="Gipszkartonozás, homlokzati hőszigetelés, burkolás és teljes körű felújítás Veszprém megyében. Ingyenes felmérés, fix árajánlat.">
+<meta property="og:description" content="Kőműves munkák, homlokzati hőszigetelés, burkolás és teljes körű felújítás Veszprém megyében. Ingyenes felmérés, fix árajánlat.">
 <meta property="og:image" content="images/stock-belso.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <!-- DEMO: a cím, elérhetőségek, számadatok és vélemények placeholder tartalmak, éles indulás előtt cserélendők. -->
@@ -21,7 +21,7 @@
   "@context": "https://schema.org",
   "@type": "GeneralContractor",
   "name": "Suki László E.V.",
-  "description": "Gipszkartonozás és álmennyezet, homlokzati hőszigetelés, burkolás, valamint bel- és kültéri felújítás Veszprém megyében és 50 km-es körzetében.",
+  "description": "Kőműves munkák, homlokzati hőszigetelés, gipszkartonozás és burkolás Veszprém megyében és 50 km-es körzetében.",
   "telephone": "+36701234567",
   "email": "info@sukilaszlo.hu",
   "address": { "@type": "PostalAddress", "streetAddress": "Fő utca 1.", "addressLocality": "Várpalota", "postalCode": "8100", "addressCountry": "HU" },
@@ -99,10 +99,11 @@
   .hero{position:relative;color:#fff;overflow:hidden;isolation:isolate}
   .hero::before{content:"";position:absolute;inset:0;z-index:-2;background:url("images/stock-belso.jpg") center/cover}
   .hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(100deg,rgba(19,22,27,.94) 0%,rgba(19,22,27,.82) 42%,rgba(19,22,27,.5) 78%,rgba(19,22,27,.35) 100%)}
-  .hero-in{max-width:660px;padding:104px 0 108px}
-  .hero h1{font-size:clamp(44px,7vw,86px);margin:20px 0 0}
+  .hero .wrap{max-width:none;margin-left:clamp(32px,8vw,120px);margin-right:0}
+  .hero-in{width:60%;max-width:none;padding:104px 0 108px;text-align:left}
+  .hero h1{font-size:clamp(44px,7vw,86px);line-height:1.24;margin:20px 0 0}
   .hero h1 .am{color:var(--amber)}
-  .hero p.lead{margin-top:22px;font-size:clamp(17px,2.1vw,20px);font-weight:500;color:#E4E7EC;max-width:54ch}
+  .hero p.lead{margin-top:22px;font-size:clamp(17px,2.1vw,20px);font-weight:500;color:#E4E7EC;max-width:100ch}
   .hero-cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
   .hero-chips{display:flex;flex-wrap:wrap;gap:12px 22px;margin-top:34px}
   .chip{display:inline-flex;align-items:center;gap:9px;font-size:14px;font-weight:600;color:#EAEDF1}
@@ -113,18 +114,18 @@
   .stats{background:var(--dark-2);color:#fff}
   .stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;padding:36px 0}
   .stat{text-align:center;padding:8px 6px}
-  .stat b{display:block;font-family:var(--fd);font-size:clamp(34px,4.5vw,50px);color:var(--amber);line-height:1}
+  .stat b{display:block;font-family:var(--fd);font-size:clamp(34px,4.5vw,50px);color:var(--amber);line-height:1;letter-spacing:.1em}
   .stat span{display:block;margin-top:8px;font-size:13.5px;font-weight:600;letter-spacing:.04em;color:#AEB6C0;text-transform:uppercase}
   .stat+.stat{border-left:1px solid rgba(255,255,255,.09)}
 
   /* SERVICES */
   .svc{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
-  .card{background:var(--card);border-radius:var(--r-md);overflow:hidden;box-shadow:var(--sh-sm);transition:transform .2s,box-shadow .2s;display:flex;flex-direction:column}
+  .card{background:var(--card);border-radius:var(--r-md);overflow:visible;box-shadow:var(--sh-sm);transition:transform .2s,box-shadow .2s;display:flex;flex-direction:column}
   .card:hover{transform:translateY(-6px);box-shadow:var(--sh)}
-  .card-media{position:relative;aspect-ratio:4/3;overflow:hidden;background:var(--bg-alt)}
-  .card-media img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+  .card-media{position:relative;height:250px;overflow:visible;background:var(--bg-alt)}
+  .card-media img{width:100%;height:100%;object-fit:cover;border-radius:var(--r-md) var(--r-md) 0 0;transition:transform .5s ease}
   .card:hover .card-media img{transform:scale(1.06)}
-  .card-ic{position:absolute;left:14px;bottom:-22px;width:52px;height:52px;border-radius:14px;background:var(--amber);color:#1a1305;display:flex;align-items:center;justify-content:center;box-shadow:var(--sh-sm)}
+  .card-ic{position:absolute;left:14px;bottom:-22px;z-index:2;width:52px;height:52px;border-radius:14px;background:var(--amber);color:#1a1305;display:flex;align-items:center;justify-content:center;box-shadow:var(--sh-sm)}
   .card-ic .icon{width:26px;height:26px;stroke-width:2}
   .card-body{padding:34px 22px 26px;flex:1}
   .card h3{font-family:var(--fb);font-weight:800;font-size:20px;line-height:1.25;letter-spacing:0;text-transform:none;margin-bottom:9px;min-height:2.5em;display:flex;align-items:flex-end}
@@ -202,7 +203,7 @@
   .form-ok p{color:var(--ink-2);font-size:15px}
   .form-ok a{color:var(--amber-d);font-weight:700;text-decoration:underline}
 
-  footer.ft{background:var(--dark-2);color:#9AA2AD;padding:44px 0 100px;text-align:center}
+  footer.ft{background:var(--dark-2);color:#9AA2AD;padding:44px 0;text-align:center}
   footer.ft .brand{font-size:19px;margin-bottom:8px}
   footer.ft .row{font-size:14px;margin-bottom:6px}
   footer.ft a{color:#C7CDD6;text-decoration:underline}
@@ -236,11 +237,12 @@
     .work{grid-template-columns:1fr}
     .fg{grid-template-columns:1fr}
     .sec{padding:64px 0}
-    .hero-in{padding:76px 0 84px}
+    .hero-in{width:100%;padding:76px 0 84px}
     body{padding-bottom:74px}
     .sticky-cta{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:70;gap:10px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(246,243,238,.96);backdrop-filter:blur(10px);border-top:1px solid var(--line)}
     .sticky-cta .btn{flex:1;padding:13px 12px;font-size:14.5px}
     .cookie.show{left:0;right:0;bottom:0;border-radius:0;flex-direction:column;align-items:stretch;text-align:center}
+    footer.ft{padding-bottom:88px}
   }
   @media (max-width:460px){
     .svc,.steps{grid-template-columns:1fr}
@@ -273,7 +275,7 @@
     <div class="brand">SUKI LÁSZLÓ <span>E.V.</span></div>
     <nav class="nav-links">
       <a href="#szolgaltatasok">Szolgáltatások</a>
-      <a href="#miert">Miért minket</a>
+      <a href="#miert">Miért engem</a>
       <a href="#munkaink">Munkáink</a>
       <a href="#velemenyek">Vélemények</a>
       <a href="#ajanlat">Kapcsolat</a>
@@ -286,8 +288,8 @@
 <section class="hero">
   <div class="wrap hero-in">
     <span class="eyebrow on-dark">Várpalota · Veszprém megye + 50 km</span>
-    <h1>Építünk, szigetelünk,<br><span class="am">felújítunk.</span></h1>
-    <p class="lead">Gipszkartonozás, homlokzati hőszigetelés, burkolás és teljes körű felújítás — egy megbízható csapat, korrekt áron, mindig határidőre.</p>
+    <h1>Építek, szigetelek,<br><span class="am">felújítok.</span></h1>
+    <p class="lead">Kőműves munkák, homlokzati hőszigetelés, burkolás és teljes körű felújítás — megbízható kivitelezés, korrekt áron, mindig határidőre.</p>
     <div class="hero-cta">
       <a class="btn btn-primary" href="#ajanlat"><svg class="icon"><use href="#i-check"/></svg>Ingyenes árajánlatot kérek</a>
       <a class="btn btn-ghost on-dark" href="tel:+36701234567"><svg class="icon"><use href="#i-phone"/></svg>+36 70 123 4567</a>
@@ -305,7 +307,7 @@
   <div class="wrap stats-grid">
     <div class="stat reveal"><b>15+</b><span>Év tapasztalat</span></div>
     <div class="stat reveal"><b>250+</b><span>Befejezett munka</span></div>
-    <div class="stat reveal"><b>4.9<span style="font-size:.5em">/5</span></b><span>Ügyfél-értékelés</span></div>
+    <div class="stat reveal"><b>4.9</b><span>Ügyfél-értékelés</span></div>
     <div class="stat reveal"><b>100%</b><span>Határidőre átadva</span></div>
   </div>
 </section>
@@ -315,10 +317,14 @@
   <div class="wrap">
     <div class="sec-head center reveal">
       <span class="eyebrow">Szolgáltatások</span>
-      <h2>Amiben otthon vagyunk</h2>
-      <p>A tervezéstől az utolsó fugáig — egy csapat, aki a teljes munkát leviszi, hogy Önnek ne kelljen több kivitelezővel egyeztetnie.</p>
+      <h2>Kőműves munkák és felújítás</h2>
+      <p>A kőműves feladatoktól az utolsó fugáig — egy szakember, aki a teljes munkát kézben tartja, hogy Önnek ne kelljen több kivitelezővel egyeztetnie.</p>
     </div>
     <div class="svc">
+      <div class="card reveal">
+        <div class="card-media"><img src="images/stock-komuves.jpg" alt="Kőműves falazási munka" loading="lazy"><span class="card-ic"><svg class="icon"><use href="#i-wall"/></svg></span></div>
+        <div class="card-body"><h3>Kőműves munkák</h3><p>Kőműves feladatok és építőipari munkák a megbeszéltek szerint, pontos kivitelezéssel és tiszta munkaterülettel.</p></div>
+      </div>
       <div class="card reveal">
         <div class="card-media"><img src="images/stock-gipszkarton.jpg" alt="Gipszkartonozás, álmennyezet készítése" loading="lazy"><span class="card-ic"><svg class="icon"><use href="#i-layers"/></svg></span></div>
         <div class="card-body"><h3>Gipszkartonozás, álmennyezet</h3><p>Díszes álmennyezetek rejtett világítással, válaszfalak, előtétfalak és tetőtér-burkolás, precízen.</p></div>
@@ -330,10 +336,6 @@
       <div class="card reveal">
         <div class="card-media"><img src="images/stock-burkolas.jpg" alt="Burkolás, csempézés, járólapozás" loading="lazy"><span class="card-ic"><svg class="icon"><use href="#i-grid"/></svg></span></div>
         <div class="card-body"><h3>Burkolás</h3><p>Járólap, csempe, kültéri lépcső és terasz burkolása, pontos vágással és precíz fugázással.</p></div>
-      </div>
-      <div class="card reveal">
-        <div class="card-media"><img src="images/stock-felujitas.jpg" alt="Bel- és kültéri felújítás" loading="lazy"><span class="card-ic"><svg class="icon"><use href="#i-home"/></svg></span></div>
-        <div class="card-body"><h3>Bel- és kültéri felújítás</h3><p>Komplett lakás- és házfelújítás glettelástól a festésig — egy csapat, egy felelős a munkáért.</p></div>
       </div>
     </div>
   </div>
@@ -347,12 +349,12 @@
       <div class="split-badge"><b>15+</b><span>év a szakmában</span></div>
     </div>
     <div class="reveal">
-      <span class="eyebrow">Miért minket</span>
+      <span class="eyebrow">Miért engem</span>
       <h2 style="font-size:clamp(28px,4vw,44px);margin-top:12px">Nem ígérünk — <br>megcsináljuk</h2>
-      <p style="margin-top:16px;color:var(--ink-2);font-size:16.5px">Egy kivitelező, aki felveszi a telefont, kiér a felmérésre, és a leegyeztetett áron, határidőre végez. A munkaterületet tisztán adjuk át.</p>
+      <p style="margin-top:16px;color:var(--ink-2);font-size:16.5px">Én veszem fel a telefont, én megyek ki a felmérésre, és a leegyeztetett áron, határidőre végzem el a munkát. A munkaterületet tisztán adom át.</p>
       <ul class="why-list">
         <li><span class="ic"><svg class="icon"><use href="#i-wallet"/></svg></span><div><h4>Fix, írásos árajánlat</h4><p>Amit megbeszélünk, annyi lesz — utólagos meglepetések nélkül.</p></div></li>
-        <li><span class="ic"><svg class="icon"><use href="#i-clock"/></svg></span><div><h4>Határidő, amit tartunk</h4><p>Reális ütemtervet adunk, és a vállalt napra készen vagyunk.</p></div></li>
+        <li><span class="ic"><svg class="icon"><use href="#i-clock"/></svg></span><div><h4>Határidő, amit tartok</h4><p>Reális ütemtervet adok, és a vállalt napra elkészülök.</p></div></li>
         <li><span class="ic"><svg class="icon"><use href="#i-shield"/></svg></span><div><h4>Igényes, garantált munka</h4><p>Precíz kivitelezés és tiszta munkaterület — a végén nem takarításra van szüksége.</p></div></li>
       </ul>
     </div>
@@ -363,14 +365,14 @@
 <section class="sec sec-dark">
   <div class="wrap">
     <div class="sec-head center reveal">
-      <span class="eyebrow on-dark">Hogyan dolgozunk</span>
+      <span class="eyebrow on-dark">Hogyan dolgozom</span>
       <h2>Négy lépés a kész munkáig</h2>
     </div>
     <div class="steps">
-      <div class="step reveal"><div class="num">01</div><h4>Felmérés</h4><p>Kijövünk a helyszínre, meghallgatjuk az elképzelését, és átnézzük a feladatot — díjmentesen.</p></div>
-      <div class="step reveal"><div class="num">02</div><h4>Árajánlat</h4><p>Írásos, tételes árajánlatot adunk fix áron és reális határidővel.</p></div>
-      <div class="step reveal"><div class="num">03</div><h4>Kivitelezés</h4><p>Pontosan, tiszta munkaterülettel dolgozunk, és végig tartjuk a kapcsolatot.</p></div>
-      <div class="step reveal"><div class="num">04</div><h4>Átadás</h4><p>Kitakarítva, készre adjuk át — csak be kell rendezni.</p></div>
+      <div class="step reveal"><div class="num">01</div><h4>Felmérés</h4><p>Kimegyek a helyszínre, meghallgatom az elképzelését, és átnézem a feladatot — díjmentesen.</p></div>
+      <div class="step reveal"><div class="num">02</div><h4>Árajánlat</h4><p>Írásos, tételes árajánlatot adok fix áron és reális határidővel.</p></div>
+      <div class="step reveal"><div class="num">03</div><h4>Kivitelezés</h4><p>Pontosan, tiszta munkaterülettel dolgozom, és végig tartom a kapcsolatot.</p></div>
+      <div class="step reveal"><div class="num">04</div><h4>Átadás</h4><p>Kitakarítva, készre adom át — csak be kell rendezni.</p></div>
     </div>
   </div>
 </section>
@@ -379,9 +381,9 @@
 <section class="sec sec-alt" id="munkaink">
   <div class="wrap">
     <div class="sec-head center reveal">
-      <span class="eyebrow">Munkáink</span>
+      <span class="eyebrow">Munkáim</span>
       <h2>Saját kivitelezésű munkák</h2>
-      <p>Néhány elkészült projekt a saját kezünkből — nem stockfotó, valódi átadott munka.</p>
+      <p>Néhány elkészült projekt a saját kezemből — nem stockfotó, valódi átadott munka.</p>
     </div>
     <div class="work">
       <div class="work-item reveal"><img src="images/almennyezet-kesz-2.jpeg" alt="Kész díszes gipszkarton álmennyezet rejtett világítással"><span class="work-tag">Álmennyezet</span><div class="work-cap">Díszes álmennyezet rejtett világítással</div></div>
@@ -401,17 +403,17 @@
     <div class="tst">
       <div class="tst-card reveal">
         <div class="stars"><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg></div>
-        <p>„A homlokzati szigetelést a megbeszélt határidőre, kifogástalanul elvégezték. Az árajánlathoz képest egy forinttal sem lett több.”</p>
+        <p>„A homlokzati szigetelést a megbeszélt határidőre, kifogástalanul elvégezte. Az árajánlathoz képest egy forinttal sem lett több.”</p>
         <div class="tst-who"><span class="tst-av">KZ</span><div><b>Kovács Zoltán</b><span>Várpalota</span></div></div>
       </div>
       <div class="tst-card reveal">
         <div class="stars"><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg></div>
-        <p>„A nappaliba készített álmennyezet gyönyörű lett. Precíz, tiszta munka, és a végén mindent kitakarítottak maguk után.”</p>
+        <p>„A nappaliba készített álmennyezet gyönyörű lett. Precíz, tiszta munka, és a végén mindent kitakarított maga után.”</p>
         <div class="tst-who"><span class="tst-av">NE</span><div><b>Nagy Erika</b><span>Veszprém</span></div></div>
       </div>
       <div class="tst-card reveal">
         <div class="stars"><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg><svg class="icon"><use href="#i-star"/></svg></div>
-        <p>„Teljes lakásfelújítást bíztunk rájuk. Végig lehetett velük egyeztetni, tartották az ütemtervet. Csak ajánlani tudom.”</p>
+        <p>„Teljes lakásfelújítást bíztam rá. Végig lehetett vele egyeztetni, tartotta az ütemtervet. Csak ajánlani tudom.”</p>
         <div class="tst-who"><span class="tst-av">SP</span><div><b>Szabó Péter</b><span>Berhida</span></div></div>
       </div>
     </div>
@@ -437,7 +439,7 @@
     <div class="reveal">
       <span class="eyebrow on-dark">Árajánlatkérés</span>
       <h2 style="font-size:clamp(28px,4vw,44px);margin-top:12px">Kérje ingyenes árajánlatát</h2>
-      <p style="margin-top:14px;color:#C7CDD6;font-size:16.5px;max-width:44ch">Hagyja meg az adatait, és 24 órán belül visszahívjuk, hogy egyeztessünk egy díjmentes helyszíni felmérést.</p>
+      <p style="margin-top:14px;color:#C7CDD6;font-size:16.5px;max-width:44ch">Hagyja meg az adatait, és 24 órán belül visszahívom, hogy egyeztessünk egy díjmentes helyszíni felmérést.</p>
       <div style="margin-top:26px">
         <div class="info-row"><span class="ic"><svg class="icon"><use href="#i-phone"/></svg></span><div><div class="k">Telefon</div><a class="v" href="tel:+36701234567">+36 70 123 4567</a></div></div>
         <div class="info-row"><span class="ic"><svg class="icon"><use href="#i-mail"/></svg></span><div><div class="k">E-mail</div><a class="v" href="mailto:info@sukilaszlo.hu">info@sukilaszlo.hu</a></div></div>
@@ -451,14 +453,14 @@
           <div class="field"><label for="tel">Telefonszám</label><input id="tel" name="tel" type="tel" autocomplete="tel" placeholder="+36 30 000 0000" required></div>
         </div>
         <div class="field"><label for="hol">Hol? (település)</label><input id="hol" name="hol" type="text" placeholder="Pl. Várpalota" required></div>
-        <div class="field"><label for="uzenet">Miben segíthetünk? (opcionális)</label><textarea id="uzenet" name="uzenet" placeholder="Pl. 120 m² homlokzat szigetelése, családi ház"></textarea></div>
+        <div class="field"><label for="uzenet">Miben segíthetek? (opcionális)</label><textarea id="uzenet" name="uzenet" placeholder="Pl. 120 m² homlokzat szigetelése, családi ház"></textarea></div>
         <button class="btn btn-primary btn-block" type="submit">Árajánlatot kérek</button>
         <p class="form-note">Adatait kizárólag a kapcsolatfelvételhez használjuk. Lásd az <a href="privacy.html" style="color:var(--amber-d)">adatkezelési tájékoztatót</a>.</p>
       </form>
       <div class="form-ok" id="formOk">
         <div class="ok"><svg class="icon"><use href="#i-check"/></svg></div>
-        <h3>Köszönjük, megkaptuk!</h3>
-        <p>Hamarosan hívjuk. Sürgős esetben: <a href="tel:+36701234567">+36 70 123 4567</a>.</p>
+        <h3>Köszönöm, megkaptam!</h3>
+        <p>Hamarosan hívom. Sürgős esetben: <a href="tel:+36701234567">+36 70 123 4567</a>.</p>
       </div>
     </div>
   </div>
@@ -467,7 +469,7 @@
 <footer class="ft">
   <div class="wrap">
     <div class="brand disp">SUKI LÁSZLÓ <span style="color:var(--amber)">E.V.</span></div>
-    <div class="row">Gipszkartonozás · Homlokzati hőszigetelés · Burkolás · Felújítás</div>
+    <div class="row">Kőműves munkák · Homlokzati hőszigetelés · Burkolás · Felújítás</div>
     <div class="row">Várpalota · Veszprém megye és 50 km-es körzet · <a href="tel:+36701234567">+36 70 123 4567</a></div>
     <div class="row"><a href="privacy.html">Adatkezelési tájékoztató</a></div>
     <div class="fine">© 2026 Suki László E.V. · Minden jog fenntartva</div>
